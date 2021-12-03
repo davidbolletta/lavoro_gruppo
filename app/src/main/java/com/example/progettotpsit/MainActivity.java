@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button butclic = findViewById(R.id.ciprianibutton);
-       
 
+butclic.setOnClickListener(view);
 
     }
 }

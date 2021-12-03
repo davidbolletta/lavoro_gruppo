@@ -7,10 +7,31 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ciprianibutton"
+        android:layout_width="164dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="164dp"
+        android:text="ciporiani"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ciporiani"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="409dp" />
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="301dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/photo5850640820850505992" />
 </androidx.constraintlayout.widget.ConstraintLayout>
